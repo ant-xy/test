@@ -14,6 +14,7 @@ const firaCode = Fira_Code({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <div class="absolute bottom-10 z-0 w-1/12 bg-fixed bg-gradient-to-b from-fuchsia-400 to-blue-700 rounded-full aspect-square"></div> */}
       <body className={firaCode.className}>{children}</body>
     </html>
   );

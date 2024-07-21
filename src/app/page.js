@@ -46,8 +46,8 @@ export default function Home() {
         </svg>
       </div>
 
-      <div class="grid z-10 grid-cols-12 p-1 sm:p-1 md:p-1 lg:p-10 xl:p-10 2xl:p-10 snap-start snap-always bg-board">
-        <p class="col-span-full text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
+      <div class="grid z-10 grid-cols-12 p-1 sm:p-3 md:p-3 lg:p-10 xl:p-10 2xl:p-10 snap-start snap-always bg-board-light">
+        <p class="col-span-full mt-auto mb-auto text-white align-middle text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
           <img
             src={Lua.src}
             class="float-left p-1 w-4/12 rounded-lg sm:visible md:visible lg:hidden xl:hidden 2xl:hidden sm:w-3/12 md:w-3/12 lg:w-full 2xl:w-full aspect-square"
@@ -63,16 +63,16 @@ export default function Home() {
         {/* sm:col-span-full md:col-span-3 lg:col-span-3 2xl:col-span-3 */}
         <div></div>
 
-        <div class="hidden order-last col-span-full content-center sm:col-span-full sm:hidden md:hidden lg:block xl:block 2xl:block md:col-span-12 lg:col-span-3 xl:col-span-3 2xl:col-span-3 w-12/12">
+        <div class="hidden order-last col-span-full content-center sm:col-span-full sm:hidden md:hidden lg:block xl:block 2xl:block md:col-span-12 lg:col-span-3 xl:col-span-3 2xl:col-span-3 h-12/12">
           <img
             src={Lua.src}
             class="mx-auto w-5/12 rounded-lg sm:w-3/12 md:w-3/12 lg:w-full 2xl:w-full aspect-square"
           ></img>
         </div>
-      </div>
+      </div> 
 
-      <div class="grid grid-cols-12 p-10 snap-start snap-always bg-board">
-        <p class="col-span-full text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
+      <div class="grid z-10 grid-cols-12 p-1 mt-20 sm:mt-20 md:mg-20 sm:p-3 md:p-3 lg:p-10 xl:p-10 2xl:p-10 snap-start snap-always bg-board-light">
+        <p class="col-span-full mt-auto mb-auto text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
           <img
             src={DDSF.src}
             class="float-left p-1 w-4/12 rounded-lg sm:visible md:visible lg:hidden xl:hidden 2xl:hidden sm:w-3/12 md:w-3/12 lg:w-full 2xl:w-full aspect-square"
@@ -96,8 +96,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="grid grid-cols-12 p-10 snap-start snap-always bg-board">
-        <p class="col-span-full text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
+      <div class="grid z-10 grid-cols-12 p-1 mt-20 sm:mt-20 md:mg-20 sm:p-3 md:p-3 lg:p-10 xl:p-10 2xl:p-10 snap-start snap-always bg-board-light">
+        <p class="col-span-full mt-auto mb-auto text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
           <img
             src={RSF.src}
             class="float-left p-1 w-4/12 rounded-lg sm:visible md:visible lg:hidden xl:hidden 2xl:hidden sm:w-3/12 md:w-3/12 lg:w-full 2xl:w-full aspect-square"
@@ -121,8 +121,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="grid grid-cols-12 p-10 snap-start bg-board">
-        <p class="col-span-full text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
+      <div class="grid z-10 grid-cols-12 p-1 mt-20 sm:mt-20 md:mg-20 sm:p-3 md:p-3 lg:p-10 xl:p-10 2xl:p-10 snap-start snap-always bg-board-light">
+        <p class="col-span-full mt-auto mb-auto text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
           <img
             src={DEF.src}
             class="float-left p-1 w-4/12 rounded-lg sm:visible md:visible lg:hidden xl:hidden 2xl:hidden sm:w-3/12 md:w-3/12 lg:w-full 2xl:w-full aspect-square"
@@ -146,8 +146,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="grid grid-cols-12 p-10 snap-start snap-always bg-board">
-        <p class="col-span-full text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
+      <div class="grid z-10 grid-cols-12 p-1 mt-20 sm:mt-20 md:mg-20 sm:p-3 md:p-3 lg:p-10 xl:p-10 2xl:p-10 snap-start snap-always bg-board-light">
+        <p class="col-span-full mt-auto mb-auto text-white text-1xl sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl sm:col-span-full md:col-span-12 lg:col-span-8 2xl:col-span-8">
           <img
             src={SFG.src}
             class="float-left p-1 w-4/12 rounded-lg sm:visible md:visible lg:hidden xl:hidden 2xl:hidden sm:w-3/12 md:w-3/12 lg:w-full 2xl:w-full aspect-square"

@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background-color: rgb(46, 41, 41);
+  background-color:#1d1f28;
   font-family: var(--font-fira-code);
 }
 
@@ -33,6 +33,10 @@ body {
 
   .bg-board {
     background-color: #1d1f28;
+  }
+
+  .bg-board-light {
+    background-color: #30333f39;
   }
 
   .text-board {
